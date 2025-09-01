@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PORTFOLIO WEBSITE </title>
+<style>
+nav{
+padding:15px,30px;
+background: #00316E;
+gap:120px;
+border="1";
+width: 100%;       /* full width */
+ z-index: 900;
+max-width:90%;
+position:fixed;
+align-items: center;
+display: flex;
+justify-content: space-between;
+}
+.logo a{
+font-size:18px;
+color:white;
+font-weight:bold;
+}
+.menu a{
+gap:20px;
+color:white;
+}
+.section{
+display:flex;
+justify-content: space-between;
+align-items:center;
+max-width: 1000px;
+  margin: 40px auto;
+  gap: 40px; 
+  max-width:80%; max-height:100%;
+  height:100vh;
+}
+.section h1 {
+  margin: 0 0 15px 0; /* space between heading & paragraph */
+}
+</style>
+</head>
+<body>
+<header class="hero">
+<nav>
+<div class="logo"><a href="#">Sampati Dotasara</a></div>
+<div class="menu">
+<a href="#Home">Home</a>
+<a href="#About">About</a>
+<a href="#Education">Education</a>
+<a href="#Skills & Projects">Skills & Projects</a>
+<a href="#Experience">Experience</a>
+<a href="#Certifications & Awards">Certifications & Awards</a>
+<a href="#Contact">Contact</a>
+</div>
+</nav>
+</header>
+<section class="section" id="Home">
+  <div >
+    <h1 id="greeting">Hello, I am Sampati!</h1>
+    <h3  >
+      An aspiring software engineer, frontend developer, and a budding machine learning engineer 
+      with a knack for transforming creative ideas into engaging, responsive web experiences.  
+      Driven by curiosity and a love for problem-solving, I'm on a mission to build the future, 
+      one line of code at a time.
+    </h3>
+    <button a href="#Contact"style="
+  background-color: green; 
+  color: white; 
+  padding: 12px 30px; 
+  border: none; 
+  border-radius: 50px; 
+  font-size: 16px;
+  cursor: pointer;
+">
+  Contact Me
+</button>
+  </div>
+  <img src="https://shefali-kaushal-portfolio.netlify.app/assets/avatar-1-CaQmO7YL.png" alt="Girl with laptop">
+
+</section>
+<section class="section" id="About">
+<img src="https://shefali-kaushal-portfolio.netlify.app/assets/about%20avatar-BQQNd42S.png">
+<div>
+<h1> Full-Stack Developer</h1>
+
+<h3>I specialize in building end-to-end web applications that connect intuitive user interfaces with powerful backend systems. On the frontend, I use ReactJS and Tailwind CSS along with libraries like ShadCn, Bootstrap, and MUI to craft responsive, dynamic, and visually engaging experiences. On the backend, I work with Node.js, Express.js, and databases such as MongoDB and MySQL to design secure, scalable, and efficient systems. I enjoy working with RESTful APIs, authentication flows, and real-time features to deliver seamless, data-driven applications. I’m passionate about bridging the gap between frontend creativity and backend logic, continuously learning modern tools and best practices to bring complete, production-ready solutions to life.</h3>
+</div>
+</section>
+<section class="section" id="Education">
+<div style="gap:30px;width:1600vh;">
+<div style="border: 1px solid black; display: flex; align-items: center; padding: 15px; gap: 20px; border-radius: 8px;max-width: 1000px;">
+  <img src="https://tse1.mm.bing.net/th/id/OIP.tpDZyOzzD8mUjXK48NdJyAHaFr?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" 
+       width="100px" 
+       alt="IIIT Senapati Logo">
+  <div>
+    <h3 style="margin: 0;">Indian Institute of Information Technology Senapati, Manipur</h3>
+    <h3 style="margin: 5px 0;">B.Tech in Computer Science and Engineering (CSE)</h3>
+    <h4 style="margin: 0; color: gray;">2023 - 2027</h4>
+  </div>
+</div>
+<div style="border: 1px solid black; display: flex; align-items: center; padding: 15px; gap: 20px; border-radius: 8px;max-width: 1000px;">
+  <img src="https://th.bing.com/th/id/R.a84c707711458ebffc07b9c6fd99daed?rik=ZHEcRaTmJP5bFw&riu=http%3a%2f%2fwww.sikareducationhub.in%2fwp-content%2fuploads%2f2021%2f04%2fmatrix-high-school-logo.jpg&ehk=2hKY6b7KITGK%2bCXnLYn5baYiWPCuPmxi%2feX%2fj4i5NGA%3d&risl=&pid=ImgRaw&r=0" 
+       width="100px" 
+       alt="MATRIX Logo">
+  <div>
+    <h3 style="margin: 0;">Matrix High School Sikar, Rajasthan</h3>
+    <h3 style="margin: 5px 0;">Class XII</h3>
+    <h4 style="margin: 0; color: gray;">2021 - 2022</h4>
+  </div>
+</div>
+<div style="border: 1px solid black; display: flex; align-items: center; padding: 15px; gap: 20px; border-radius: 8px;max-width: 1000px;">
+  <img src="https://content.jdmagicbox.com/sikar/f8/9999p1572.1572.141124151323.f7f8/logo/5489bc8b0e2c35ef3e46e51009603bb9.jpg"
+       width="100px" 
+       alt="SKNIE Logo">
+  <div>
+    <h3 style="margin: 0;">Swami Keshwanand Shikshan Sansthan in Badhadhar,Sikar</h3>
+    <h3 style="margin: 5px 0;">Class X</h3>
+    <h4 style="margin: 0; color: gray;">2019- 2020</h4>
+  </div>
+</div>
+</section>
+<section class="section" id="Skills & Projects">
+<div style="display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 per row */
+    gap: 15px; /* spacing between images */
+    justify-items: center;
+    margin: 20px;">
+  <button id="btn">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" 
+         alt="C++ Logo" width="60">
+    <span id="btnText"></span>
+  </button>
+  <button id="btn1">
+  <img src="https://i0.wp.com/junilearning.com/wp-content/uploads/2020/06/python-programming-language.webp?fit=800%2C800&ssl=1" width="60">
+  <span id="pybtnText"></span>
+  </button>
+  <button id="btn2">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQko3p2uskY4Ua4Cp5wtU5bkeCEf4wiJjzjfg&s" width="60">
+  <span id="htmlbtnText"></span>
+  </button>
+  <button id="btn3">
+  <img src="https://img-c.udemycdn.com/course/750x422/1561458_7f3b_2.jpg" width="60">
+  <span id="cssText"></span>
+  </button>
+  <button id="btn4">
+  <img src="https://studyopedia.com/wp-content/uploads/2020/07/JavaScript-Free-Tutorial.png" width="60">
+  <span id="jsText"></span>
+  </button>
+  <button id="btn5">
+  <img src="https://ncarb.github.io/bootstrap/assets/img/bootstrap-stack.png" width="60">
+  <span id="BootstrapText"></span>
+  </button>
+  <button id="btn6">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcR5U16C8yXgBpl7-Bc7Itjx3_LRl425zINA&s" width="60">
+  <span id="ReactjsText"></span>
+  </button>
+  <button id="btn7">
+  <img src="https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png" width="60">
+  <span id="NextjsText"></span>
+  </button>
+  <button id="btn8">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAmDbPyYv7-vMQEk4MYXaZ_ySeCk4YZV6QjA&s" width="60">
+  <span id="typeText"></span>
+  </button>
+  <button id="btn9">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwzwWTSVJSwGi89oC07NwBZ4KdPuepJLyfcw&s" width="60">
+  <span id="NodejsText"></span>
+  </button>
+  <button id="btn10">
+  <img src="https://www.hostinger.com/my/tutorials/wp-content/uploads/sites/45/2021/11/php-8-2.webp" width="60">
+  <span id="phpText"></span>
+  </button>
+  <button id="btn11">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2jnqhGEMmH3Yt-dZsKWEhilGCBGqc7Q73vA&s" width="60">
+  <span id="MysqlText"></span>
+  </button>
+  <button id="btn12">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2ZYtHv2OLXmthRPbkmENZRXuqBVDwlsrZ1A&s" width="60">
+  <span id="MongodbText"></span>
+  </button>
+  <button id="btn13">
+  <img src="https://play-lh.googleusercontent.com/hoVBnPBRehmXsCqESLXRH2E3OTxklkwKZlb1psn7imm0VUSobn2nevS9RRFWb9GM4-o" width="60">
+  <span id="FigmaText"></span>
+  </button>
+  <button id="btn14">
+  <img src="https://www.matillion.com/uploads/cards/database-1200.jpg" width="60">
+  <span id="DatabaseText"></span>
+  </button>
+  <button id="btn15">
+ <img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnsj4laf5kkk0xinr3789.png" width="60">
+  <span id="DsaText"></span>
+  </button>
+  </div>
+</section>
+<section class="section" id="Skills & Projects">
+<div class="projects" style="display:flex; justify-content:center; gap:20px;">
+<div class="project" style="border: 1px solid black;padding:10px;">
+ <img src="https://github.com/sampatidotasara/intern-dashboard-fund-/raw/main/intern_portal.png" 
+       alt="Intern Fund Dashboard Screenshot" width="300">
+<h3>Intern Fund Dashboard</h3>
+<p>
+  Built a dashboard web application to track interns, their assigned projects, and 
+  associated stipends/funds. The system allows admins to manage intern details, 
+  allocate funds, and monitor disbursements while interns can log in to view their 
+  profiles, assigned tasks, and payment status. Provides transparency and efficiency 
+  in internship fund management.
+</p>
+<p><b>Tech Stack:</b> React.js, Node.js, Express, MongoDB</p>
+<button style="shape:oval;"><a href="https://github.com/sampatidotasara/intern-dashboard-fund-">Source code</a></button>
+<button style="shape:oval;"><a href="https://poetic-platypus-586086.netlify.app/"> Demo</a></button>
+</div>
+<div class ="project" style="border: 1px solid black;padding:10px;">
+ <img src="https://raw.githubusercontent.com/sampatidotasara/mernchat/main/chatbot.png" width="300" alt="Real-Time Chatbot Screenshot">
+<h3>Real-Time Chatbot</h3> 
+<h4> a MERN stack application designed to provide 
+  instant, AI-powered conversations in a seamless and interactive way. Built with 
+  <b>React.js</b> for the frontend and <b>Node.js + Express.js</b> for the backend, it uses 
+  <b>Socket.IO</b> to enable live, two-way communication without page reloads. 
+  <b>MongoDB</b> is used to store chat history, while <b>OpenAI API</b> powers the 
+  intelligent responses. This chatbot is suitable for customer support, 
+  e-learning platforms, or productivity assistance.
+</h4>
+<button style="shape:oval;"><a href="https://github.com/sampatidotasara/mernchat">Source code</a></button>
+<button style="shape:oval;"><a href="https://chatboxmer.netlify.app/">Demo</a></button>
+</div>
+</div>
+<div class="projects" style="display:flex; justify-content:center; gap:20px;">
+<div class="project" style="border: 1px solid black;padding:10px;">
+<img src="https://raw.githubusercontent.com/sampatidotasara/solar-system-threejs/main/3dsolar.png" width="300" alt="3D SOLAR SYSTEM">
+<h3>3D Solar System</h3>
+  <p>
+    A visually interactive <b>3D Solar System simulation</b> built to represent the planets, 
+    their orbits, and rotational movements around the sun. The project uses <b>JavaScript</b> 
+    (with <b>Three.js / WebGL</b>) to render realistic 3D models and animations of celestial 
+    bodies. Users can explore different planets, zoom in/out, and view orbital paths, 
+    making it both an educational and engaging experience.
+  </p>
+  <p><b>Tech Stack:</b> JavaScript (Three.js / WebGL), HTML, CSS</p>
+<button style="shape:oval;"><a href="https://github.com/sampatidotasara/"solar-system-threejs">Source code</a></button>
+<button style="shape:oval;"><a href="https://3solar.netlify.app/">Demo</a></button>
+</div>
+<div class="project" style="border: 1px solid black;padding:10px;">
+<img src=" https://raw.githubusercontent.com/sampatidotasara/to_do_list/main/to-do-list.png" width="300">
+  <h3>To-Do List</h3>
+  <p>
+    A simple yet powerful <b>To-Do List web application</b> that allows users to 
+    manage their tasks efficiently. Users can add, edit, delete, and mark tasks as 
+    completed. The app features persistent storage so tasks remain saved between 
+    sessions, making it ideal for personal productivity and task organization.
+  </p>
+  <p><b>Tech Stack:</b> HTML, CSS, JavaScript (or React.js if using a framework), LocalStorage / Backend API</p>
+  <button style="shape:oval;"><a href="https://github.com/sampatidotasara/to_do_list" target="_blank">Source Code</a> </button>
+  <button style="shape:oval;"><a href="https://guileless-kringle-165a63.netlify.app/" target="_blank">Live Demo</a></button>
+</div>
+
+</div>
+</section>
+<section class="section" id="Experience">
+<div display:grid; grid-template-columns: 1fr; gap:20px;">
+<div style="display:flex; gap:20px; border:1px solid #ccc; padding:20px; border-radius:10px; align-items:center;">
+<img src="https://mail.google.com/mail/u/1?ui=2&ik=ff7cbb8e06&attid=0.0.1&permmsgid=msg-f:1839415843832620208&th=1986eaf6ddde64b0&view=fimg&fur=ip&permmsgid=msg-f:1839415843832620208&sz=s0-l75-ft&attbid=ANGjdJ9GGyP6CZ4vWfmhSBBBvYGaRZGywKPubiOzYqDNF1E8K0IRktjzhbRVzw3oeElMzvsAAzJADOevC6wvvMNoheZvoyRuSlFgQLHldcz3rMT2nWw1vjfj0vtGPNg&disp=emb&realattid=ii_mdvbjlmg1&zw"  
+width="400">
+<div >
+<h1>Elevate Labs </h1>
+<h3>Work on real-time projects involving both front-end and back-end web development.
+Develop applications using HTML, CSS, JavaScript, React, and Node.js.
+Gain experience with API integrations and connecting front-end to back-end services.
+Learn website optimization techniques for performance and responsiveness.
+Understand deployment processes to make projects live and accessible online.</h3>
+<h6>August 2025 - Present</h6>
+<a href="https://drive.google.com/file/d/1nXC9yNKSkcYDtP8iMmnzoGmEouhtzRRt/view" target="_blank" class="btn">
+ See Proof
+</a>
+</div>
+</div>
+<div style="display:flex; gap:20px; border:1px solid #ccc; padding:20px; border-radius:10px; align-items:center;">
+<img src="https://thafd.bing.com/th/id/OIP.TugBdX6CC1jub9CS3r_D6QHaCI?w=323&h=100&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" width="400">
+<div>
+<h1>Indian Space Lab</h1>
+<h3>Gained hands-on experience in space technology projects, satellite systems, and research in aerospace engineering, contributing to real-world applications in India’s space programs.</h3>
+<h6>December 2024-january 2025</h6>
+<a href="https://drive.google.com/file/d/1SCXh2pO6UOqFnGqNecBrCkY45DF40OB3/view" target="_blank" class="btn">
+ See Proof
+</a>
+</div>
+</div>
+</div>
+</section>
+<section class="section" id="Certifications & Awards">
+<div>
+<div style="display:flex; gap:20px; border:1px solid #ccc; padding:20px; border-radius:10px; align-items:center;">
+<div>
+<h1>Best COO of Cura'25</h1>
+<h5>competitive management and operations challenge, demonstrating teamwork, strategic thinking, and problem-solving skills in organizing and executing event operations</h5>
+<a href="https://unstop.com/certificate-preview/a7f15d6c-f6fd-4046-819d-a497b32604a0">View Certificate</a>
+</div>
+</div>
+<div style="display:flex; gap:20px; border:1px solid #ccc; padding:20px; border-radius:10px; align-items:center;">
+<div>
+<h1>Aarambh'25 — The Innovation
+ Challenge of the Building India Inc. 2025</h1>
+<h5>Participated in a national-level innovation challenge, showcasing creativity, problem-solving skills, and teamwork in designing and presenting innovative solutions for real-world problems.</h5>
+<a href="https://unstop.com/certificate-preview/b81418c9-551f-4927-824e-402ebcc0df5f">View Certificate</a>
+</div>
+</div>
+<div style="display:flex; gap:20px; border:1px solid #ccc; padding:20px; border-radius:10px; align-items:center;">
+<div>
+<h1>DataQuest Online Round</h1>
+<h5>Participated in the online round of a national-level data and analytics challenge, demonstrating skills in data analysis, problem-solving, and collaborative teamwork.</h5>
+<a href="https://unstop.com/certificate-preview/46b9d6c0-58ad-4149-bafc-eedebe08c8ed">View Certificate</a>
+</div>
+</div>
+<div style="display:flex; gap:20px; border:1px solid #ccc; padding:20px; border-radius:10px; align-items:center;">
+<div>
+<h1>Software Track – NITS HACKS 7.0</h1>
+<h5>Participated in a national-level hackathon focused on software development, demonstrating coding skills, problem-solving abilities, and collaborative teamwork.</h5>
+<a href="https://unstop.com/certificate-preview/df5aa157-0653-4b17-8c7b-0136e5df50af">View Certificate</a>
+</div>
+</div>
+<div style="display:flex; gap:20px; border:1px solid #ccc; padding:20px; border-radius:10px; align-items:center;">
+<div>
+<h1>Hackdata '25</h1>
+<h5>Participated in a national-level hackathon focused on data-driven solutions, showcasing innovation, coding skills, and teamwork in solving real-world problems.</h5>
+<a href="https://unstop.com/certificate-preview/b703e489-035c-472f-9f8e-b6a563a72fb6">View Certificate</a>
+</div>
+</div>
+</div>
+</section>
+<section class="section" id="Contact">
+<div>
+<h1>Contact</h1>
+<h3>Feel free to reach out!</h3>
+<ul>
+<li>
+<a href="mailto:dotasarasampati6@gmail.com" 
+   aria-label="Send a Mail" 
+   class="btn">
+  📧 Mail Me
+</a>
+</li>
+<li>
+<a href="https://github.com/sampatidotasara" 
+   aria-label="Visit My Github Profile" 
+   class="btn">
+  Visit My Github Profile
+</a>
+</li>
+<li>
+<a href="https://www.linkedin.com/in/sampati-dotasara-50b06a29a/" 
+   aria-label="Visit My Linkedin Profile" 
+   class="btn">
+  Visit My Linkedin Profile
+</a>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<script>
+  let btnText = document.getElementById("btnText");
+
+  // change text on click (image remains fixed)
+  document.getElementById("btn").addEventListener("click", () => {
+    btnText.textContent = "C++";
+  });
+  </script>
+  <script>
+  let pybtnText=document.getElementById("pybtnText");
+  document.getElementById("btn1").addEventListener("click",()=>{
+     pybtnText.textContent="Python";
+     });
+</script>
+<script>
+let htmlbtnText=document.getElementById("htmlbtnText");
+document.getElementById("btn2").addEventListener("click",()=>{
+htmlbtnText.textContent="Html"
+});
+</script>
+ <script>
+ let cssText=document.getElementById("cssText");
+document.getElementById("btn3").addEventListener("click",()=>{
+cssText.textContent="css";
+});
+</script>
+<script>
+ let jsText=document.getElementById("jsText");
+document.getElementById("btn4").addEventListener("click",()=>{
+jsText.textContent="Javascript";
+});
+</script>
+<script>
+ let BootstrapText=document.getElementById("BootstrapText");
+document.getElementById("btn5").addEventListener("click",()=>{
+BootstrapText.textContent="Bootstrap";
+});
+</script>
+<script>
+ let ReactjsText=document.getElementById("ReactjsText");
+document.getElementById("btn6").addEventListener("click",()=>{
+ReactjsText.textContent="React.js";
+});
+</script>
+<script>
+ let NextjsText=document.getElementById("NextjsText");
+document.getElementById("btn7").addEventListener("click",()=>{
+NextjsText.textContent="Next.js";
+});
+</script>
+<script>
+ let typeText=document.getElementById("typeText");
+document.getElementById("btn8").addEventListener("click",()=>{
+typeText.textContent="Typescript";
+});
+</script>
+<script>
+ let NodejsText=document.getElementById("NodejsText");
+document.getElementById("btn9").addEventListener("click",()=>{
+NodejsText.textContent="Node.js";
+});
+</script>
+<script>
+ let phpText=document.getElementById("phpText");
+document.getElementById("btn10").addEventListener("click",()=>{
+phpText.textContent="PHP";
+});
+</script>
+<script>
+ let MysqlText=document.getElementById("MysqlText");
+document.getElementById("btn11").addEventListener("click",()=>{
+MysqlText.textContent="Mysql";
+});
+</script>
+<script>
+ let MongodbText=document.getElementById("MongodbText");
+document.getElementById("btn12").addEventListener("click",()=>{
+MongodbText.textContent="Mongodb";
+});
+</script>
+<script>
+ let FigmaText=document.getElementById("FigmaText");
+document.getElementById("btn13").addEventListener("click",()=>{
+FigmaText.textContent="Figma";
+});
+</script>
+<script>
+ let DatabaseText=document.getElementById("DatabaseText");
+document.getElementById("btn14").addEventListener("click",()=>{
+DatabaseText.textContent="Database";
+});
+</script>
+<script>
+ let DsaText=document.getElementById("DsaText");
+document.getElementById("btn15").addEventListener("click",()=>{
+DsaText.textContent="DSA";
+});
+</script>
+<script>
+let messages=[
+  "Hello, I am Sampati!",
+  "¡Hola, soy Sampati!",
+  "Bonjour, je suis Sampati !",
+  "Ciao, sono Sampati!",
+  "こんにちは、私はサンパティです！"
+];
+let index=0;
+let greeting=document.getElementById("greeting");
+function changeMessage(){
+  index=(index+1)%messages.length;
+  greeting.textContent=messages[index];
+}  
+setInterval(changeMessage,2000); // change every 2s
+</script>
+</body>
+</html>
